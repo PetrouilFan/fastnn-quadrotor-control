@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# MuJoCo
+MUJOCO_LOG.TXT
+*.mjb
+
+# Models/checkpoints and training artifacts
+models/
+models_*/
+runs/
+tb_logs/
+tb_logs_*/
+logs/
+*.pt
+*.pth
+*.onnx
+*.zip
+*.pkl
+
+# Data files
+data/
+*.npz
+*.npy
+
+# Archived experiments
+scripts/archive/
+docs/archived/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.ruff_cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log

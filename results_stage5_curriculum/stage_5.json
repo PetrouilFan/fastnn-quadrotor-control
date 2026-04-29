@@ -1,0 +1,8 @@
+{
+  "0": {
+    "success_rate": 0.6,
+    "mean_tracking_error": 11.308182755355677,
+    "mean_final_dist": 43.393740290532676,
+    "model_dir": "models_stage5_curriculum/stage_5/seed_0"
+  }
+}

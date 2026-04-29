@@ -1,0 +1,37 @@
+{
+  "standard": {
+    "0": {
+      "success_rate": 1.0,
+      "mean_final_dist": 3.4097556333811396,
+      "model_dir": "models_reward_ablation/standard/stage_4/seed_0"
+    }
+  },
+  "no_proximity": {
+    "0": {
+      "success_rate": 1.0,
+      "mean_final_dist": 3.5934372497457447,
+      "model_dir": "models_reward_ablation/no_proximity/stage_4/seed_0"
+    }
+  },
+  "no_recovery": {
+    "0": {
+      "success_rate": 0.0,
+      "mean_final_dist": 0.49483414423258615,
+      "model_dir": "models_reward_ablation/no_recovery/stage_4/seed_0"
+    }
+  },
+  "no_smoothness": {
+    "0": {
+      "success_rate": 1.0,
+      "mean_final_dist": 3.4097556333811396,
+      "model_dir": "models_reward_ablation/no_smoothness/stage_4/seed_0"
+    }
+  },
+  "position_only": {
+    "0": {
+      "success_rate": 1.0,
+      "mean_final_dist": 112.43698659562655,
+      "model_dir": "models_reward_ablation/position_only/stage_4/seed_0"
+    }
+  }
+}
