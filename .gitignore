@@ -56,3 +56,9 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Local tooling
+.claude/
+.kilo/
+find_root_imports*.py
+tools/fix_imports.py
