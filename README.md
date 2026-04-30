@@ -19,7 +19,7 @@ python -m fastnn_quadrotor.visualize
 python scripts/utils/visualize.py
 ```
 
-For detailed usage, training scripts, and full documentation, see **[docs/publication/README_FINAL.md](docs/publication/README_FINAL.md)**.
+For detailed usage, training scripts, and full documentation, see **[docs/publication/README.md](docs/publication/README.md)**.
 
 ## Repository Structure
 
