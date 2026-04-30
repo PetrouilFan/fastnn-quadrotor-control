@@ -10,6 +10,15 @@ We validate the approach through a 6-stage curriculum from hover to aggressive r
 
 Finally, we validate deployment feasibility on ARM edge hardware (Raspberry Pi 5). FastNN inference achieves 114 μs median latency — compatible with 100 Hz deployment with significant headroom for higher-rate control loops.
 
+## 📚 Related Research Documents
+
+For additional context and detailed analysis:
+
+- **[Complete Research Paper](../../papers/fastnn_quadrotor_paper.md)** - Full research paper with comprehensive methods and analysis
+- **[Experimental History](../../papers/quadrotor_research_paper.md)** - Complete experimental history and failure analysis
+- **[Technical Analysis](../../papers/quadrotor_best_path_forward.md)** - Architecture decisions and future work
+- **[Research Summary](../../papers/quadrotor_research_summary.md)** - Concise results overview
+
 ## 1. Introduction
 
 Quadrotor control in unstructured environments requires robust adaptation to wind disturbances and mass variations. Classical PID/PD controllers provide stable hover but struggle with unmodeled disturbances. Pure neural network policies can learn complex behaviors but require large datasets and may be unstable at deployment.
