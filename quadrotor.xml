@@ -1,0 +1,27 @@
+<mujoco model="quadrotor">
+    <compiler angle="radian" autolimits="true"/>
+    <option timestep="0.01"/>
+    
+    <worldbody>
+        <light diffuse=".5 .5 .5" pos="0 0 3" dir="0 0 -1"/>
+        <geom name="floor" type="plane" size="10 10 0.1" rgba="0.9 0.9 0.9 1" contype="0" conaffinity="0"/>
+        <body name="quad" pos="0 0 0.5">
+            <freejoint name="free"/>
+            <inertial pos="0 0 0" mass="1.0" diaginertia="0.01 0.01 0.02"/>
+            <!-- Main body: red box -->
+            <geom type="box" size="0.12 0.12 0.02" rgba="0.8 0.2 0.2 1"/>
+            <!-- Forward direction indicator: small blue arrow (thin cylinder) -->
+            <geom type="cylinder" size="0.008 0.06" pos="0.20 0 0.02" rgba="0.2 0.2 0.8 1" euler="0 0 0"/>
+        </body>
+        <body name="target" pos="0 0 1.0">
+            <geom type="sphere" size="0.08" rgba="0.0 1.0 0.0 0.8" contype="0" conaffinity="0"/>
+        </body>
+    </worldbody>
+    
+    <actuator>
+        <motor name="m1" joint="free" ctrlrange="-10 10" gear="0 0 0 1 0 0"/>
+        <motor name="m2" joint="free" ctrlrange="-10 10" gear="0 0 0 0 1 0"/>
+        <motor name="m3" joint="free" ctrlrange="-10 10" gear="0 0 0 0 0 1"/>
+        <motor name="m4" joint="free" ctrlrange="0 20" gear="0 0 1 0 0 0"/>
+    </actuator>
+</mujoco>

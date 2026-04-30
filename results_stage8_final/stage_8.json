@@ -1,0 +1,18 @@
+{
+  "seed_0": {
+    "model_dir": "models_stage8_final/stage_8/seed_0",
+    "final_model": "models_stage8_final/stage_8/seed_0/final.zip",
+    "total_steps": 50000,
+    "speed_curriculum": {
+      "0": 0.1,
+      "100000": 0.2,
+      "250000": 0.5,
+      "500000": 0.8,
+      "1000000": 1.0,
+      "1500000": 1.5,
+      "2000000": 2.0,
+      "3000000": 3.0,
+      "4000000": 4.0
+    }
+  }
+}

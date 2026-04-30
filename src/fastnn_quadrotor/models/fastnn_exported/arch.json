@@ -1,0 +1,20 @@
+{
+  "input_dim": 60,
+  "hidden_dims": [
+    256,
+    256,
+    128
+  ],
+  "output_dim": 4,
+  "activation": "relu",
+  "layer_names": [
+    "fc1_weight",
+    "fc1_bias",
+    "fc2_weight",
+    "fc2_bias",
+    "fc3_weight",
+    "fc3_bias",
+    "fc4_weight",
+    "fc4_bias"
+  ]
+}
