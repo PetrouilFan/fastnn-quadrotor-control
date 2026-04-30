@@ -4,6 +4,22 @@ Reinforcement learning research for robust quadrotor control under wind, mass pe
 
 **Key Result**: 100% success rate with **0.10m** tracking error on dynamic figure-8 trajectory (**47× improvement** over baseline).
 
+## Research Papers
+
+### 📄 Primary Publication
+- **[FastNN Quadrotor Control with Curriculum Adaptation](docs/publication/README.md)** - Complete academic paper (Abstract, Methods, Results, Discussion)
+
+### 📚 Detailed Research Papers
+- **[Complete Research Paper](docs/papers/fastnn_quadrotor_paper.md)** (528 lines) - Full research paper with methods, results, analysis
+- **[Experimental History](docs/papers/quadrotor_research_paper.md)** (882 lines) - Complete experimental history and failure analysis
+- **[Technical Analysis](docs/papers/quadrotor_best_path_forward.md)** (350 lines) - Architecture decisions and future directions
+- **[Research Summary](docs/papers/quadrotor_research_summary.md)** (143 lines) - Concise results and best path forward
+
+### 🔬 Supporting Documentation
+- **[Publication Package](docs/publication/)** - Academic publication with methods, results, and appendices
+- **[Experiments](docs/experiments/)** - Detailed experimental results (delay robustness study)
+- **[Development](docs/development/)** - Planning documents and audit reports
+
 ## Quick Start
 
 ```bash
